@@ -1,0 +1,6 @@
+a MOV R1, #1
+b MOV R2, #1
+here MOVS R0, R1, LSL R2
+MOV R2, #32
+BNE here
+ADDNE R2, R1, #0

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="common\CommonData.fs" />
+    <Compile Include="common\CommonLex.fs" />
+    <Compile Include="common\Data.fs" />
+    <Compile Include="common\FlexOp2.fs" />
+    <Compile Include="common\Expressions.fs" />
+    <Compile Include="common\EEExtensions.fs" />
+    <Compile Include="parse\Arith.fs" />
+    <Compile Include="parse\Misc.fs" />
+    <Compile Include="parse\Log.fs" />
+    <Compile Include="parse\Move.fs" />
+    <Compile Include="parse\Comp.fs" />
+    <Compile Include="parse\LDM_STM.fs" />
+    <Compile Include="parse\LDRSTR.fs" />
+    <Compile Include="toBeSplit\LDM.fs" />
+    <Compile Include="common\CommonTop.fs" />
+    <Compile Include="Proj.fs" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>

@@ -1,0 +1,1 @@
+/C "arith\Arith\visualapp\visual\jre\bin\java -jar arith\Arith\visualapp\visual\content\visual_headless.jar --headless arith\Arith\VisualWork\d6/source.s arith\Arith\VisualWork\d6/visoutput.log --cycles --regs --syntax --runtime --mode:all  --meminstsize:0x1000 "
