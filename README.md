@@ -1,14 +1,18 @@
 # Disclaimer
 
 The project that can be found in this branch is not entirely mine. It was part of a group project for university.
-Therefore, only parts of it have been created by me.
+It has been uploaded as a whole so as to be complete.
 
-*More specifically*
+PARTS THAT ARE MINE
+___________________
+
 I hace created all the files relevant to the LDM and STM operations. That is, the files:
+
 - LDM_STM.fs
 - LDMSTMTest.fs
 - MemDoc.md
-I have largely contributed (50%) to the top level file connecting all individual modules,
+
+Moreover, I have also created most of the top level file which serves as the interface and connects all individual modules,
 that is the file:
 - CommonTop
 
