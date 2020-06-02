@@ -1,7 +1,7 @@
 # Disclaimer
 
 The project that can be found in this branch is not entirely mine. It was part of a group project for university.
-It has been uploaded as a whole so as to be complete.
+It has been uploaded as a whole for the sake of completeness.
 
 
 ### ABOUT THE PROJECT AND MY EXPERIENCE
