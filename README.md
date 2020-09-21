@@ -8,13 +8,16 @@ ___________________
 
 I hace created all the files relevant to the LDM and STM operations. That is, the files:
 
-- LDM_STM.fs
-- LDMSTMTest.fs
-- MemDoc.md
+- LDM_STM.fs (path: Proj/parse/...)
+- LDRSTR.fs (path: Proj/parse/...)
+- LDMSTMTest.fs (path: Proj/tests/...)
+- MemDoc.md (path: Proj/Documentation/...)
 
-Moreover, I have also created most of the top level file which serves as the interface and connects all individual modules,
-that is the file:
-- CommonTop
+Two people contributed to the file below (Me: 50%, teammate: 50%):
+- CommonTop (path: Proj/common/...)
+
+Explanation: This is the module that connects all. I created the interfaces and function definition structures and my teamate filled in the function execution instructions. In other words, I focused on high level architecture while he focused on low-level implementation. It is also worth mentioning that our professor helped by giving us an idea of how the interfaces should look like in the end. 
+
 
 ### ABOUT THE PROJECT AND MY EXPERIENCE
 ___________________________________
