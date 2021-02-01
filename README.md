@@ -6,8 +6,9 @@ It has been uploaded as a whole for the sake of completeness.
 ### PARTS THAT ARE MINE
 ___________________
 
-I hace created all the files relevant to the LDM and STM operations:
+I have created all the files relevant to the LDM and STM operations. These are operations deal with memory. Hence, operational codes that start with 'L' load from memory registers while operational codes that start with 'S' (eg. STM) store into memory registers of the alu (Arithmetic-Logic Unit). Please read on for further explanations.
 
+Namely:
 - LDM_STM.fs (path: Proj/parse/...)
 - LDRSTR.fs (path: Proj/parse/...)
 - LDMSTMTest.fs (path: Proj/tests/...)
