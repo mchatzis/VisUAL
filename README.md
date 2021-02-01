@@ -10,6 +10,7 @@ This emulator emulates a sub-set of the ARM UAL.
 
 **Example of an ARM instruction:**
 `LDM  R8, {R0,R2,R9}`
+
 Explanation: R8 is a register that contains the memory address we want to access. Instruction: Access that address and copy its contents to R0. Then increment the address to get the next value and copy it to R2. Then increment again to copy the next address to R9. 
 
 For detailed documentation on the ARM instruction set visit this [*ARM Infocenter page*](https://developer.arm.com/documentation/dui0552/a/the-cortex-m3-instruction-set/memory-access-instructions/ldm-and-stm)
