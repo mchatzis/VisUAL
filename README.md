@@ -3,6 +3,8 @@ Usually, when we program in higher level languages (eg. *C++*), we do not care a
 
 This project's goal was to build a program that emulates what is happening under the hood at the assembly code level. 
 
+You can write assembly code in it and then go through its execution and observe what is happening to the registers and memory.
+
 ### More specifically...
 
 [*ARM*](https://www.arm.com/products/silicon-ip-cpu?utm_source=google&utm_medium=cpc&utm_campaign=2019_enterprise-marketing_mk30_na_brand-solutions_bol_awa&utm_term=arm%20technology&gclid=Cj0KCQiA6t6ABhDMARIsAONIYywHOBIjWjvlhM2sMU7O_jBkCilNUscSFEx69NlLGgMOF4LDl5MNXSMaAkPgEALw_wcB) microprocessors use the ARM UAL instruction set, an assembly code language targeted at ARM devices. These instructions control the values of the registers of an ARM microprocessor and its memory registers. A sub-part of the whole ARM instruction set can be found in [this list](https://salmanarif.bitbucket.io/visual/supported_instructions.html) of instructions.
