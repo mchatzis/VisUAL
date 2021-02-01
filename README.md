@@ -1,5 +1,5 @@
 # ARM Assembly Language emulator
-Usually, when we program in higher level languages (eg. *C++*), we do not care about how the code gets transformed from english words (e.g. *int my_int*) to assembly code instructions (eg. *MOV R1 1*) and finally to machine code (eg. *000000 00001 00010 00110 00000 100000*). It gets taken care of automatically.
+Usually, when we program in higher level languages (eg. *C++*), we do not care about how the code gets transformed from english words (e.g. *int my_int*), to assembly code instructions (eg. *MOV R1 1*) and finally to machine code (eg. *000000 00001 00010 00110 00000 100000*). It gets taken care of automatically.
 
 This project's goal was to build a program that emulates what is happening under the hood at the assembly code level. 
 
