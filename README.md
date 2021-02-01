@@ -15,9 +15,9 @@ This emulator emulates a sub-set of the ARM UAL.
 
 Explanation: R8 is a register that contains the memory address we want to access. Instruction: Access that address and copy its contents to R0. Then increment the address to get the next value and copy it to R2. Then increment again to copy the next address to R9. 
 
-For detailed documentation on the ARM instruction set visit this [*ARM Infocenter page*](https://developer.arm.com/documentation/dui0552/a/the-cortex-m3-instruction-set/memory-access-instructions/ldm-and-stm)
+For detailed documentation on the ARM instruction set visit this [*ARM Infocenter page*](https://developer.arm.com/documentation/dui0552/a/the-cortex-m3-instruction-set/memory-access-instructions/ldm-and-stm).
 
-For documentation on the code found in this repository, please check the [documentation folder](https://github.com/mchatzis/VisUAL/tree/master/Proj/Documentation)
+For documentation on the code found in this repository, please check the [documentation folder](https://github.com/mchatzis/VisUAL/tree/master/Proj/Documentation).
 
 ### Disclaimer
 
